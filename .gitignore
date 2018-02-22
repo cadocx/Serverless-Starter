@@ -38,3 +38,7 @@ jspm_packages
 
 .webpack
 .serverless
+
+# DS_Store
+.DS_Store
+
