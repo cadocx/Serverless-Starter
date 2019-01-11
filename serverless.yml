@@ -7,7 +7,7 @@ provider:
   region: us-east-1
 
   environment:
-    REGION: self:provider.region
+    REGION: ${self:provider.region}
 
   # Describe necessary IAM permissions here
   iamRoleStatements:

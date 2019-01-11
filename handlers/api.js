@@ -1,4 +1,4 @@
-import { success } from "../helpers/response";
+import { success, failure } from "../lib/response";
 
 export function helloWolf(event, context, callback) {
   console.log("event", event);
