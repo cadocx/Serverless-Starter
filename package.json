@@ -1,25 +1,13 @@
 {
-  "name": "Serverless-Starter",
+  "name": "sls-starter",
   "version": "1.0.0",
-  "description": "Serverless starter with ES6/7",
+  "description": "Minimalist Serverless startter",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-plugin-source-map-support": "^1.0.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-3": "^6.24.1",
-    "serverless-webpack": "^3.1.0",
-    "webpack": "^3.6.0",
-    "webpack-node-externals": "^1.6.0"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "babel-runtime": "^6.26.0",
-    "source-map-support": "^0.4.18"
+    "esm": "^3.0.84"
   }
 }

@@ -1,8 +1,10 @@
-# Serverless Starter with Webpack, Babel
+# Minimalist Serverless Starter
 
 ## Install dependencies
+
 npm install
 npm i -g serverless
 
-## Deploy 
+## Deploy
+
 sls deploy
